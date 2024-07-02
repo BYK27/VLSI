@@ -1,0 +1,2079 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L54 is DRAM_DQ[0]~output at IOOBUF_X16_Y29_N2
+A1L54 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L57 is DRAM_DQ[1]~output at IOOBUF_X9_Y29_N16
+A1L57 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L60 is DRAM_DQ[2]~output at IOOBUF_X9_Y29_N30
+A1L60 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L63 is DRAM_DQ[3]~output at IOOBUF_X11_Y29_N30
+A1L63 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L66 is DRAM_DQ[4]~output at IOOBUF_X7_Y29_N23
+A1L66 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L69 is DRAM_DQ[5]~output at IOOBUF_X9_Y29_N23
+A1L69 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L72 is DRAM_DQ[6]~output at IOOBUF_X7_Y29_N2
+A1L72 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L75 is DRAM_DQ[7]~output at IOOBUF_X5_Y29_N23
+A1L75 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L78 is DRAM_DQ[8]~output at IOOBUF_X14_Y29_N23
+A1L78 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L81 is DRAM_DQ[9]~output at IOOBUF_X14_Y29_N2
+A1L81 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L84 is DRAM_DQ[10]~output at IOOBUF_X16_Y29_N30
+A1L84 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L87 is DRAM_DQ[11]~output at IOOBUF_X14_Y29_N9
+A1L87 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L90 is DRAM_DQ[12]~output at IOOBUF_X16_Y29_N23
+A1L90 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L93 is DRAM_DQ[13]~output at IOOBUF_X16_Y29_N16
+A1L93 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L96 is DRAM_DQ[14]~output at IOOBUF_X16_Y29_N9
+A1L96 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L99 is DRAM_DQ[15]~output at IOOBUF_X7_Y29_N30
+A1L99 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L163 is FL_DQ[0]~output at IOOBUF_X0_Y2_N2
+A1L163 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L166 is FL_DQ[1]~output at IOOBUF_X0_Y2_N16
+A1L166 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L169 is FL_DQ[2]~output at IOOBUF_X0_Y2_N23
+A1L169 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L172 is FL_DQ[3]~output at IOOBUF_X0_Y9_N16
+A1L172 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L175 is FL_DQ[4]~output at IOOBUF_X0_Y9_N23
+A1L175 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L178 is FL_DQ[5]~output at IOOBUF_X0_Y4_N2
+A1L178 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L181 is FL_DQ[6]~output at IOOBUF_X0_Y7_N23
+A1L181 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L184 is FL_DQ[7]~output at IOOBUF_X0_Y6_N9
+A1L184 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L187 is FL_DQ[8]~output at IOOBUF_X0_Y3_N2
+A1L187 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L190 is FL_DQ[9]~output at IOOBUF_X0_Y2_N9
+A1L190 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L193 is FL_DQ[10]~output at IOOBUF_X0_Y4_N23
+A1L193 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L196 is FL_DQ[11]~output at IOOBUF_X0_Y9_N9
+A1L196 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L199 is FL_DQ[12]~output at IOOBUF_X0_Y8_N2
+A1L199 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L202 is FL_DQ[13]~output at IOOBUF_X0_Y5_N23
+A1L202 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L205 is FL_DQ[14]~output at IOOBUF_X0_Y7_N16
+A1L205 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L160 is FL_DQ15_AM1~output at IOOBUF_X0_Y6_N2
+A1L160 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L503 is LCD_DATA[0]~output at IOOBUF_X41_Y24_N9
+A1L503 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L506 is LCD_DATA[1]~output at IOOBUF_X41_Y24_N2
+A1L506 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L509 is LCD_DATA[2]~output at IOOBUF_X41_Y26_N23
+A1L509 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L512 is LCD_DATA[3]~output at IOOBUF_X41_Y26_N16
+A1L512 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L515 is LCD_DATA[4]~output at IOOBUF_X41_Y26_N9
+A1L515 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L518 is LCD_DATA[5]~output at IOOBUF_X41_Y26_N2
+A1L518 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L521 is LCD_DATA[6]~output at IOOBUF_X41_Y27_N16
+A1L521 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L524 is LCD_DATA[7]~output at IOOBUF_X41_Y27_N23
+A1L524 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L571 is SD_DAT0~output at IOOBUF_X41_Y2_N23
+A1L571 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L574 is SD_DAT3~output at IOOBUF_X41_Y5_N2
+A1L574 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L568 is SD_CMD~output at IOOBUF_X41_Y3_N2
+A1L568 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L557 is PS2_KBDAT~output at IOOBUF_X41_Y12_N23
+A1L557 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L554 is PS2_KBCLK~output at IOOBUF_X41_Y11_N2
+A1L554 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L563 is PS2_MSDAT~output at IOOBUF_X41_Y10_N16
+A1L563 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L560 is PS2_MSCLK~output at IOOBUF_X41_Y10_N9
+A1L560 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L229 is GPIO0_D[0]~output at IOOBUF_X28_Y0_N16
+A1L229 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L232 is GPIO0_D[1]~output at IOOBUF_X28_Y0_N23
+A1L232 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L235 is GPIO0_D[2]~output at IOOBUF_X26_Y0_N16
+A1L235 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L238 is GPIO0_D[3]~output at IOOBUF_X26_Y0_N9
+A1L238 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L241 is GPIO0_D[4]~output at IOOBUF_X23_Y0_N16
+A1L241 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L244 is GPIO0_D[5]~output at IOOBUF_X23_Y0_N9
+A1L244 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L247 is GPIO0_D[6]~output at IOOBUF_X23_Y0_N23
+A1L247 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L250 is GPIO0_D[7]~output at IOOBUF_X23_Y0_N30
+A1L250 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L253 is GPIO0_D[8]~output at IOOBUF_X21_Y0_N30
+A1L253 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L256 is GPIO0_D[9]~output at IOOBUF_X19_Y0_N2
+A1L256 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L259 is GPIO0_D[10]~output at IOOBUF_X16_Y0_N23
+A1L259 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L262 is GPIO0_D[11]~output at IOOBUF_X16_Y0_N30
+A1L262 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L265 is GPIO0_D[12]~output at IOOBUF_X9_Y0_N23
+A1L265 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L268 is GPIO0_D[13]~output at IOOBUF_X9_Y0_N30
+A1L268 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L271 is GPIO0_D[14]~output at IOOBUF_X7_Y0_N2
+A1L271 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L274 is GPIO0_D[15]~output at IOOBUF_X7_Y0_N9
+A1L274 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L277 is GPIO0_D[16]~output at IOOBUF_X30_Y0_N2
+A1L277 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L280 is GPIO0_D[17]~output at IOOBUF_X39_Y0_N23
+A1L280 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L283 is GPIO0_D[18]~output at IOOBUF_X26_Y0_N23
+A1L283 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L286 is GPIO0_D[19]~output at IOOBUF_X26_Y0_N30
+A1L286 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L289 is GPIO0_D[20]~output at IOOBUF_X30_Y0_N9
+A1L289 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L292 is GPIO0_D[21]~output at IOOBUF_X23_Y0_N2
+A1L292 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L295 is GPIO0_D[22]~output at IOOBUF_X1_Y0_N16
+A1L295 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L298 is GPIO0_D[23]~output at IOOBUF_X19_Y0_N23
+A1L298 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L301 is GPIO0_D[24]~output at IOOBUF_X19_Y0_N9
+A1L301 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L304 is GPIO0_D[25]~output at IOOBUF_X19_Y0_N16
+A1L304 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L307 is GPIO0_D[26]~output at IOOBUF_X1_Y0_N23
+A1L307 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L310 is GPIO0_D[27]~output at IOOBUF_X11_Y0_N30
+A1L310 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L313 is GPIO0_D[28]~output at IOOBUF_X9_Y0_N16
+A1L313 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L316 is GPIO0_D[29]~output at IOOBUF_X7_Y0_N23
+A1L316 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L319 is GPIO0_D[30]~output at IOOBUF_X3_Y0_N30
+A1L319 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L322 is GPIO0_D[31]~output at IOOBUF_X3_Y0_N23
+A1L322 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L336 is GPIO1_D[0]~output at IOOBUF_X37_Y0_N23
+A1L336 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L339 is GPIO1_D[1]~output at IOOBUF_X37_Y0_N16
+A1L339 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L342 is GPIO1_D[2]~output at IOOBUF_X35_Y0_N23
+A1L342 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L345 is GPIO1_D[3]~output at IOOBUF_X35_Y0_N16
+A1L345 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L348 is GPIO1_D[4]~output at IOOBUF_X32_Y0_N2
+A1L348 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L351 is GPIO1_D[5]~output at IOOBUF_X35_Y0_N30
+A1L351 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L354 is GPIO1_D[6]~output at IOOBUF_X28_Y0_N9
+A1L354 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L357 is GPIO1_D[7]~output at IOOBUF_X28_Y0_N2
+A1L357 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L360 is GPIO1_D[8]~output at IOOBUF_X35_Y0_N2
+A1L360 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L363 is GPIO1_D[9]~output at IOOBUF_X35_Y0_N9
+A1L363 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L366 is GPIO1_D[10]~output at IOOBUF_X39_Y0_N30
+A1L366 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L369 is GPIO1_D[11]~output at IOOBUF_X32_Y0_N9
+A1L369 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L372 is GPIO1_D[12]~output at IOOBUF_X32_Y0_N23
+A1L372 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L375 is GPIO1_D[13]~output at IOOBUF_X32_Y0_N30
+A1L375 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L378 is GPIO1_D[14]~output at IOOBUF_X16_Y0_N2
+A1L378 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L381 is GPIO1_D[15]~output at IOOBUF_X16_Y0_N9
+A1L381 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L384 is GPIO1_D[16]~output at IOOBUF_X11_Y0_N16
+A1L384 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L387 is GPIO1_D[17]~output at IOOBUF_X11_Y0_N9
+A1L387 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L390 is GPIO1_D[18]~output at IOOBUF_X32_Y0_N16
+A1L390 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L393 is GPIO1_D[19]~output at IOOBUF_X39_Y0_N16
+A1L393 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L396 is GPIO1_D[20]~output at IOOBUF_X26_Y0_N2
+A1L396 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L399 is GPIO1_D[21]~output at IOOBUF_X28_Y0_N30
+A1L399 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L402 is GPIO1_D[22]~output at IOOBUF_X3_Y0_N2
+A1L402 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L405 is GPIO1_D[23]~output at IOOBUF_X5_Y0_N30
+A1L405 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L408 is GPIO1_D[24]~output at IOOBUF_X14_Y0_N2
+A1L408 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L411 is GPIO1_D[25]~output at IOOBUF_X14_Y0_N9
+A1L411 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L414 is GPIO1_D[26]~output at IOOBUF_X9_Y0_N2
+A1L414 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L417 is GPIO1_D[27]~output at IOOBUF_X1_Y0_N9
+A1L417 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L420 is GPIO1_D[28]~output at IOOBUF_X9_Y0_N9
+A1L420 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L423 is GPIO1_D[29]~output at IOOBUF_X3_Y0_N16
+A1L423 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L426 is GPIO1_D[30]~output at IOOBUF_X1_Y0_N2
+A1L426 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--A1L429 is GPIO1_D[31]~output at IOOBUF_X7_Y0_N16
+A1L429 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+
+--CLOCK_50 is CLOCK_50 at PIN_G21
+CLOCK_50 = INPUT();
+
+
+
+--CLOCK_50_2 is CLOCK_50_2 at PIN_B12
+CLOCK_50_2 = INPUT();
+
+
+
+--BUTTON[0] is BUTTON[0] at PIN_H2
+BUTTON[0] = INPUT();
+
+
+
+--BUTTON[1] is BUTTON[1] at PIN_G3
+BUTTON[1] = INPUT();
+
+
+
+--BUTTON[2] is BUTTON[2] at PIN_F1
+BUTTON[2] = INPUT();
+
+
+
+--SW[0] is SW[0] at PIN_J6
+SW[0] = INPUT();
+
+
+
+--SW[1] is SW[1] at PIN_H5
+SW[1] = INPUT();
+
+
+
+--SW[2] is SW[2] at PIN_H6
+SW[2] = INPUT();
+
+
+
+--SW[3] is SW[3] at PIN_G4
+SW[3] = INPUT();
+
+
+
+--SW[4] is SW[4] at PIN_G5
+SW[4] = INPUT();
+
+
+
+--SW[5] is SW[5] at PIN_J7
+SW[5] = INPUT();
+
+
+
+--SW[6] is SW[6] at PIN_H7
+SW[6] = INPUT();
+
+
+
+--SW[7] is SW[7] at PIN_E3
+SW[7] = INPUT();
+
+
+
+--SW[8] is SW[8] at PIN_E4
+SW[8] = INPUT();
+
+
+
+--SW[9] is SW[9] at PIN_D2
+SW[9] = INPUT();
+
+
+--A1L434 is HEX0_D[0]~output at IOOBUF_X21_Y29_N23
+A1L434 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[0] is HEX0_D[0] at PIN_E11
+HEX0_D[0] = OUTPUT();
+
+
+--A1L436 is HEX0_D[1]~output at IOOBUF_X21_Y29_N30
+A1L436 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[1] is HEX0_D[1] at PIN_F11
+HEX0_D[1] = OUTPUT();
+
+
+--A1L438 is HEX0_D[2]~output at IOOBUF_X26_Y29_N2
+A1L438 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[2] is HEX0_D[2] at PIN_H12
+HEX0_D[2] = OUTPUT();
+
+
+--A1L440 is HEX0_D[3]~output at IOOBUF_X28_Y29_N30
+A1L440 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[3] is HEX0_D[3] at PIN_H13
+HEX0_D[3] = OUTPUT();
+
+
+--A1L442 is HEX0_D[4]~output at IOOBUF_X26_Y29_N9
+A1L442 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[4] is HEX0_D[4] at PIN_G12
+HEX0_D[4] = OUTPUT();
+
+
+--A1L444 is HEX0_D[5]~output at IOOBUF_X28_Y29_N23
+A1L444 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[5] is HEX0_D[5] at PIN_F12
+HEX0_D[5] = OUTPUT();
+
+
+--A1L446 is HEX0_D[6]~output at IOOBUF_X26_Y29_N16
+A1L446 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_D[6] is HEX0_D[6] at PIN_F13
+HEX0_D[6] = OUTPUT();
+
+
+--A1L432 is HEX0_DP~output at IOOBUF_X23_Y29_N9
+A1L432 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX0_DP is HEX0_DP at PIN_D13
+HEX0_DP = OUTPUT();
+
+
+--A1L451 is HEX1_D[0]~output at IOOBUF_X21_Y29_N2
+A1L451 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[0] is HEX1_D[0] at PIN_A13
+HEX1_D[0] = OUTPUT();
+
+
+--A1L453 is HEX1_D[1]~output at IOOBUF_X21_Y29_N9
+A1L453 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[1] is HEX1_D[1] at PIN_B13
+HEX1_D[1] = OUTPUT();
+
+
+--A1L455 is HEX1_D[2]~output at IOOBUF_X23_Y29_N2
+A1L455 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[2] is HEX1_D[2] at PIN_C13
+HEX1_D[2] = OUTPUT();
+
+
+--A1L457 is HEX1_D[3]~output at IOOBUF_X23_Y29_N23
+A1L457 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[3] is HEX1_D[3] at PIN_A14
+HEX1_D[3] = OUTPUT();
+
+
+--A1L459 is HEX1_D[4]~output at IOOBUF_X23_Y29_N30
+A1L459 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[4] is HEX1_D[4] at PIN_B14
+HEX1_D[4] = OUTPUT();
+
+
+--A1L461 is HEX1_D[5]~output at IOOBUF_X28_Y29_N16
+A1L461 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[5] is HEX1_D[5] at PIN_E14
+HEX1_D[5] = OUTPUT();
+
+
+--A1L463 is HEX1_D[6]~output at IOOBUF_X26_Y29_N23
+A1L463 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_D[6] is HEX1_D[6] at PIN_A15
+HEX1_D[6] = OUTPUT();
+
+
+--A1L449 is HEX1_DP~output at IOOBUF_X26_Y29_N30
+A1L449 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX1_DP is HEX1_DP at PIN_B15
+HEX1_DP = OUTPUT();
+
+
+--A1L468 is HEX2_D[0]~output at IOOBUF_X32_Y29_N30
+A1L468 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[0] is HEX2_D[0] at PIN_D15
+HEX2_D[0] = OUTPUT();
+
+
+--A1L470 is HEX2_D[1]~output at IOOBUF_X30_Y29_N30
+A1L470 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[1] is HEX2_D[1] at PIN_A16
+HEX2_D[1] = OUTPUT();
+
+
+--A1L472 is HEX2_D[2]~output at IOOBUF_X28_Y29_N2
+A1L472 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[2] is HEX2_D[2] at PIN_B16
+HEX2_D[2] = OUTPUT();
+
+
+--A1L474 is HEX2_D[3]~output at IOOBUF_X30_Y29_N2
+A1L474 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[3] is HEX2_D[3] at PIN_E15
+HEX2_D[3] = OUTPUT();
+
+
+--A1L476 is HEX2_D[4]~output at IOOBUF_X30_Y29_N16
+A1L476 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[4] is HEX2_D[4] at PIN_A17
+HEX2_D[4] = OUTPUT();
+
+
+--A1L478 is HEX2_D[5]~output at IOOBUF_X30_Y29_N23
+A1L478 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[5] is HEX2_D[5] at PIN_B17
+HEX2_D[5] = OUTPUT();
+
+
+--A1L480 is HEX2_D[6]~output at IOOBUF_X37_Y29_N2
+A1L480 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_D[6] is HEX2_D[6] at PIN_F14
+HEX2_D[6] = OUTPUT();
+
+
+--A1L466 is HEX2_DP~output at IOOBUF_X32_Y29_N16
+A1L466 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX2_DP is HEX2_DP at PIN_A18
+HEX2_DP = OUTPUT();
+
+
+--A1L485 is HEX3_D[0]~output at IOOBUF_X32_Y29_N23
+A1L485 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[0] is HEX3_D[0] at PIN_B18
+HEX3_D[0] = OUTPUT();
+
+
+--A1L487 is HEX3_D[1]~output at IOOBUF_X39_Y29_N16
+A1L487 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[1] is HEX3_D[1] at PIN_F15
+HEX3_D[1] = OUTPUT();
+
+
+--A1L489 is HEX3_D[2]~output at IOOBUF_X32_Y29_N9
+A1L489 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[2] is HEX3_D[2] at PIN_A19
+HEX3_D[2] = OUTPUT();
+
+
+--A1L491 is HEX3_D[3]~output at IOOBUF_X32_Y29_N2
+A1L491 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[3] is HEX3_D[3] at PIN_B19
+HEX3_D[3] = OUTPUT();
+
+
+--A1L493 is HEX3_D[4]~output at IOOBUF_X37_Y29_N23
+A1L493 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[4] is HEX3_D[4] at PIN_C19
+HEX3_D[4] = OUTPUT();
+
+
+--A1L495 is HEX3_D[5]~output at IOOBUF_X37_Y29_N30
+A1L495 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[5] is HEX3_D[5] at PIN_D19
+HEX3_D[5] = OUTPUT();
+
+
+--A1L497 is HEX3_D[6]~output at IOOBUF_X39_Y29_N30
+A1L497 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_D[6] is HEX3_D[6] at PIN_G15
+HEX3_D[6] = OUTPUT();
+
+
+--A1L483 is HEX3_DP~output at IOOBUF_X39_Y29_N23
+A1L483 = OUTPUT_BUFFER.O(.I(VCC), , , , , , , , , , , , , , , , , );
+
+
+--HEX3_DP is HEX3_DP at PIN_G16
+HEX3_DP = OUTPUT();
+
+
+--A1L533 is LEDG[0]~output at IOOBUF_X0_Y20_N9
+A1L533 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[0] is LEDG[0] at PIN_J1
+LEDG[0] = OUTPUT();
+
+
+--A1L535 is LEDG[1]~output at IOOBUF_X0_Y20_N2
+A1L535 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[1] is LEDG[1] at PIN_J2
+LEDG[1] = OUTPUT();
+
+
+--A1L537 is LEDG[2]~output at IOOBUF_X0_Y21_N23
+A1L537 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[2] is LEDG[2] at PIN_J3
+LEDG[2] = OUTPUT();
+
+
+--A1L539 is LEDG[3]~output at IOOBUF_X0_Y21_N16
+A1L539 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[3] is LEDG[3] at PIN_H1
+LEDG[3] = OUTPUT();
+
+
+--A1L541 is LEDG[4]~output at IOOBUF_X0_Y24_N23
+A1L541 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[4] is LEDG[4] at PIN_F2
+LEDG[4] = OUTPUT();
+
+
+--A1L543 is LEDG[5]~output at IOOBUF_X0_Y24_N16
+A1L543 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[5] is LEDG[5] at PIN_E1
+LEDG[5] = OUTPUT();
+
+
+--A1L545 is LEDG[6]~output at IOOBUF_X0_Y26_N23
+A1L545 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[6] is LEDG[6] at PIN_C1
+LEDG[6] = OUTPUT();
+
+
+--A1L547 is LEDG[7]~output at IOOBUF_X0_Y26_N16
+A1L547 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[7] is LEDG[7] at PIN_C2
+LEDG[7] = OUTPUT();
+
+
+--A1L549 is LEDG[8]~output at IOOBUF_X0_Y27_N9
+A1L549 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[8] is LEDG[8] at PIN_B2
+LEDG[8] = OUTPUT();
+
+
+--A1L551 is LEDG[9]~output at IOOBUF_X0_Y27_N16
+A1L551 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LEDG[9] is LEDG[9] at PIN_B1
+LEDG[9] = OUTPUT();
+
+
+--A1L605 is UART_TXD~output at IOOBUF_X41_Y8_N2
+A1L605 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--UART_TXD is UART_TXD at PIN_U21
+UART_TXD = OUTPUT();
+
+
+
+--UART_RXD is UART_RXD at PIN_U22
+UART_RXD = INPUT();
+
+
+--A1L599 is UART_CTS~output at IOOBUF_X41_Y8_N23
+A1L599 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--UART_CTS is UART_CTS at PIN_V21
+UART_CTS = OUTPUT();
+
+
+
+--UART_RTS is UART_RTS at PIN_V22
+UART_RTS = INPUT();
+
+
+--A1L14 is DRAM_ADDR[0]~output at IOOBUF_X1_Y29_N2
+A1L14 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[0] is DRAM_ADDR[0] at PIN_C4
+DRAM_ADDR[0] = OUTPUT();
+
+
+--A1L16 is DRAM_ADDR[1]~output at IOOBUF_X3_Y29_N2
+A1L16 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[1] is DRAM_ADDR[1] at PIN_A3
+DRAM_ADDR[1] = OUTPUT();
+
+
+--A1L18 is DRAM_ADDR[2]~output at IOOBUF_X3_Y29_N9
+A1L18 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[2] is DRAM_ADDR[2] at PIN_B3
+DRAM_ADDR[2] = OUTPUT();
+
+
+--A1L20 is DRAM_ADDR[3]~output at IOOBUF_X3_Y29_N30
+A1L20 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[3] is DRAM_ADDR[3] at PIN_C3
+DRAM_ADDR[3] = OUTPUT();
+
+
+--A1L22 is DRAM_ADDR[4]~output at IOOBUF_X7_Y29_N9
+A1L22 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[4] is DRAM_ADDR[4] at PIN_A5
+DRAM_ADDR[4] = OUTPUT();
+
+
+--A1L24 is DRAM_ADDR[5]~output at IOOBUF_X5_Y29_N2
+A1L24 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[5] is DRAM_ADDR[5] at PIN_C6
+DRAM_ADDR[5] = OUTPUT();
+
+
+--A1L26 is DRAM_ADDR[6]~output at IOOBUF_X11_Y29_N23
+A1L26 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[6] is DRAM_ADDR[6] at PIN_B6
+DRAM_ADDR[6] = OUTPUT();
+
+
+--A1L28 is DRAM_ADDR[7]~output at IOOBUF_X11_Y29_N16
+A1L28 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[7] is DRAM_ADDR[7] at PIN_A6
+DRAM_ADDR[7] = OUTPUT();
+
+
+--A1L30 is DRAM_ADDR[8]~output at IOOBUF_X9_Y29_N9
+A1L30 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[8] is DRAM_ADDR[8] at PIN_C7
+DRAM_ADDR[8] = OUTPUT();
+
+
+--A1L32 is DRAM_ADDR[9]~output at IOOBUF_X11_Y29_N9
+A1L32 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[9] is DRAM_ADDR[9] at PIN_B7
+DRAM_ADDR[9] = OUTPUT();
+
+
+--A1L34 is DRAM_ADDR[10]~output at IOOBUF_X5_Y29_N16
+A1L34 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[10] is DRAM_ADDR[10] at PIN_B4
+DRAM_ADDR[10] = OUTPUT();
+
+
+--A1L36 is DRAM_ADDR[11]~output at IOOBUF_X11_Y29_N2
+A1L36 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[11] is DRAM_ADDR[11] at PIN_A7
+DRAM_ADDR[11] = OUTPUT();
+
+
+--A1L38 is DRAM_ADDR[12]~output at IOOBUF_X9_Y29_N2
+A1L38 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_ADDR[12] is DRAM_ADDR[12] at PIN_C8
+DRAM_ADDR[12] = OUTPUT();
+
+
+--A1L101 is DRAM_LDQM~output at IOOBUF_X3_Y29_N23
+A1L101 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_LDQM is DRAM_LDQM at PIN_E7
+DRAM_LDQM = OUTPUT();
+
+
+--A1L105 is DRAM_UDQM~output at IOOBUF_X14_Y29_N30
+A1L105 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_UDQM is DRAM_UDQM at PIN_B8
+DRAM_UDQM = OUTPUT();
+
+
+--A1L107 is DRAM_WE_N~output at IOOBUF_X3_Y29_N16
+A1L107 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_WE_N is DRAM_WE_N at PIN_D6
+DRAM_WE_N = OUTPUT();
+
+
+--A1L44 is DRAM_CAS_N~output at IOOBUF_X5_Y29_N30
+A1L44 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CAS_N is DRAM_CAS_N at PIN_G8
+DRAM_CAS_N = OUTPUT();
+
+
+--A1L103 is DRAM_RAS_N~output at IOOBUF_X1_Y29_N9
+A1L103 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_RAS_N is DRAM_RAS_N at PIN_F7
+DRAM_RAS_N = OUTPUT();
+
+
+--A1L50 is DRAM_CS_N~output at IOOBUF_X1_Y29_N16
+A1L50 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CS_N is DRAM_CS_N at PIN_G7
+DRAM_CS_N = OUTPUT();
+
+
+--A1L40 is DRAM_BA_0~output at IOOBUF_X7_Y29_N16
+A1L40 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_BA_0 is DRAM_BA_0 at PIN_B5
+DRAM_BA_0 = OUTPUT();
+
+
+--A1L42 is DRAM_BA_1~output at IOOBUF_X5_Y29_N9
+A1L42 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_BA_1 is DRAM_BA_1 at PIN_A4
+DRAM_BA_1 = OUTPUT();
+
+
+--A1L48 is DRAM_CLK~output at IOOBUF_X1_Y29_N30
+A1L48 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CLK is DRAM_CLK at PIN_E5
+DRAM_CLK = OUTPUT();
+
+
+--A1L46 is DRAM_CKE~output at IOOBUF_X1_Y29_N23
+A1L46 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--DRAM_CKE is DRAM_CKE at PIN_E6
+DRAM_CKE = OUTPUT();
+
+
+--A1L110 is FL_ADDR[0]~output at IOOBUF_X0_Y5_N2
+A1L110 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[0] is FL_ADDR[0] at PIN_P7
+FL_ADDR[0] = OUTPUT();
+
+
+--A1L112 is FL_ADDR[1]~output at IOOBUF_X0_Y8_N9
+A1L112 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[1] is FL_ADDR[1] at PIN_P5
+FL_ADDR[1] = OUTPUT();
+
+
+--A1L114 is FL_ADDR[2]~output at IOOBUF_X0_Y4_N9
+A1L114 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[2] is FL_ADDR[2] at PIN_P6
+FL_ADDR[2] = OUTPUT();
+
+
+--A1L116 is FL_ADDR[3]~output at IOOBUF_X0_Y6_N23
+A1L116 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[3] is FL_ADDR[3] at PIN_N7
+FL_ADDR[3] = OUTPUT();
+
+
+--A1L118 is FL_ADDR[4]~output at IOOBUF_X0_Y10_N16
+A1L118 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[4] is FL_ADDR[4] at PIN_N5
+FL_ADDR[4] = OUTPUT();
+
+
+--A1L120 is FL_ADDR[5]~output at IOOBUF_X0_Y8_N16
+A1L120 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[5] is FL_ADDR[5] at PIN_N6
+FL_ADDR[5] = OUTPUT();
+
+
+--A1L122 is FL_ADDR[6]~output at IOOBUF_X0_Y7_N2
+A1L122 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[6] is FL_ADDR[6] at PIN_M8
+FL_ADDR[6] = OUTPUT();
+
+
+--A1L124 is FL_ADDR[7]~output at IOOBUF_X0_Y12_N2
+A1L124 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[7] is FL_ADDR[7] at PIN_M4
+FL_ADDR[7] = OUTPUT();
+
+
+--A1L126 is FL_ADDR[8]~output at IOOBUF_X0_Y11_N16
+A1L126 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[8] is FL_ADDR[8] at PIN_P2
+FL_ADDR[8] = OUTPUT();
+
+
+--A1L128 is FL_ADDR[9]~output at IOOBUF_X0_Y12_N16
+A1L128 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[9] is FL_ADDR[9] at PIN_N2
+FL_ADDR[9] = OUTPUT();
+
+
+--A1L130 is FL_ADDR[10]~output at IOOBUF_X0_Y12_N23
+A1L130 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[10] is FL_ADDR[10] at PIN_N1
+FL_ADDR[10] = OUTPUT();
+
+
+--A1L132 is FL_ADDR[11]~output at IOOBUF_X0_Y12_N9
+A1L132 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[11] is FL_ADDR[11] at PIN_M3
+FL_ADDR[11] = OUTPUT();
+
+
+--A1L134 is FL_ADDR[12]~output at IOOBUF_X0_Y13_N16
+A1L134 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[12] is FL_ADDR[12] at PIN_M2
+FL_ADDR[12] = OUTPUT();
+
+
+--A1L136 is FL_ADDR[13]~output at IOOBUF_X0_Y13_N23
+A1L136 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[13] is FL_ADDR[13] at PIN_M1
+FL_ADDR[13] = OUTPUT();
+
+
+--A1L138 is FL_ADDR[14]~output at IOOBUF_X0_Y11_N2
+A1L138 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[14] is FL_ADDR[14] at PIN_L7
+FL_ADDR[14] = OUTPUT();
+
+
+--A1L140 is FL_ADDR[15]~output at IOOBUF_X0_Y13_N2
+A1L140 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[15] is FL_ADDR[15] at PIN_L6
+FL_ADDR[15] = OUTPUT();
+
+
+--A1L142 is FL_ADDR[16]~output at IOOBUF_X0_Y5_N9
+A1L142 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[16] is FL_ADDR[16] at PIN_AA2
+FL_ADDR[16] = OUTPUT();
+
+
+--A1L144 is FL_ADDR[17]~output at IOOBUF_X0_Y11_N9
+A1L144 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[17] is FL_ADDR[17] at PIN_M5
+FL_ADDR[17] = OUTPUT();
+
+
+--A1L146 is FL_ADDR[18]~output at IOOBUF_X0_Y13_N9
+A1L146 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[18] is FL_ADDR[18] at PIN_M6
+FL_ADDR[18] = OUTPUT();
+
+
+--A1L148 is FL_ADDR[19]~output at IOOBUF_X0_Y11_N23
+A1L148 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[19] is FL_ADDR[19] at PIN_P1
+FL_ADDR[19] = OUTPUT();
+
+
+--A1L150 is FL_ADDR[20]~output at IOOBUF_X0_Y9_N2
+A1L150 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[20] is FL_ADDR[20] at PIN_P3
+FL_ADDR[20] = OUTPUT();
+
+
+--A1L152 is FL_ADDR[21]~output at IOOBUF_X0_Y10_N2
+A1L152 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_ADDR[21] is FL_ADDR[21] at PIN_R2
+FL_ADDR[21] = OUTPUT();
+
+
+--A1L213 is FL_WE_N~output at IOOBUF_X0_Y10_N23
+A1L213 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_WE_N is FL_WE_N at PIN_P4
+FL_WE_N = OUTPUT();
+
+
+--A1L209 is FL_RST_N~output at IOOBUF_X0_Y10_N9
+A1L209 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_RST_N is FL_RST_N at PIN_R1
+FL_RST_N = OUTPUT();
+
+
+--A1L207 is FL_OE_N~output at IOOBUF_X0_Y3_N9
+A1L207 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_OE_N is FL_OE_N at PIN_R6
+FL_OE_N = OUTPUT();
+
+
+--A1L156 is FL_CE_N~output at IOOBUF_X0_Y7_N9
+A1L156 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_CE_N is FL_CE_N at PIN_N8
+FL_CE_N = OUTPUT();
+
+
+--A1L215 is FL_WP_N~output at IOOBUF_X0_Y6_N16
+A1L215 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_WP_N is FL_WP_N at PIN_T3
+FL_WP_N = OUTPUT();
+
+
+--A1L154 is FL_BYTE_N~output at IOOBUF_X0_Y5_N16
+A1L154 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--FL_BYTE_N is FL_BYTE_N at PIN_AA1
+FL_BYTE_N = OUTPUT();
+
+
+
+--FL_RY is FL_RY at PIN_M7
+FL_RY = INPUT();
+
+
+--A1L499 is LCD_BLON~output at IOOBUF_X41_Y22_N16
+A1L499 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_BLON is LCD_BLON at PIN_F21
+LCD_BLON = OUTPUT();
+
+
+--A1L530 is LCD_RW~output at IOOBUF_X41_Y23_N16
+A1L530 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_RW is LCD_RW at PIN_E22
+LCD_RW = OUTPUT();
+
+
+--A1L526 is LCD_EN~output at IOOBUF_X41_Y23_N9
+A1L526 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_EN is LCD_EN at PIN_E21
+LCD_EN = OUTPUT();
+
+
+--A1L528 is LCD_RS~output at IOOBUF_X41_Y22_N23
+A1L528 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--LCD_RS is LCD_RS at PIN_F22
+LCD_RS = OUTPUT();
+
+
+--A1L565 is SD_CLK~output at IOOBUF_X41_Y4_N9
+A1L565 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--SD_CLK is SD_CLK at PIN_Y21
+SD_CLK = OUTPUT();
+
+
+
+--SD_WP_N is SD_WP_N at PIN_W20
+SD_WP_N = INPUT();
+
+
+--A1L625 is VGA_HS~output at IOOBUF_X41_Y18_N16
+A1L625 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_HS is VGA_HS at PIN_L21
+VGA_HS = OUTPUT();
+
+
+--A1L636 is VGA_VS~output at IOOBUF_X41_Y18_N23
+A1L636 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_VS is VGA_VS at PIN_L22
+VGA_VS = OUTPUT();
+
+
+--A1L628 is VGA_R[0]~output at IOOBUF_X41_Y23_N23
+A1L628 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[0] is VGA_R[0] at PIN_H19
+VGA_R[0] = OUTPUT();
+
+
+--A1L630 is VGA_R[1]~output at IOOBUF_X41_Y25_N2
+A1L630 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[1] is VGA_R[1] at PIN_H17
+VGA_R[1] = OUTPUT();
+
+
+--A1L632 is VGA_R[2]~output at IOOBUF_X41_Y22_N2
+A1L632 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[2] is VGA_R[2] at PIN_H20
+VGA_R[2] = OUTPUT();
+
+
+--A1L634 is VGA_R[3]~output at IOOBUF_X41_Y21_N23
+A1L634 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_R[3] is VGA_R[3] at PIN_H21
+VGA_R[3] = OUTPUT();
+
+
+--A1L617 is VGA_G[0]~output at IOOBUF_X41_Y20_N2
+A1L617 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[0] is VGA_G[0] at PIN_H22
+VGA_G[0] = OUTPUT();
+
+
+--A1L619 is VGA_G[1]~output at IOOBUF_X41_Y24_N23
+A1L619 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[1] is VGA_G[1] at PIN_J17
+VGA_G[1] = OUTPUT();
+
+
+--A1L621 is VGA_G[2]~output at IOOBUF_X41_Y21_N16
+A1L621 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[2] is VGA_G[2] at PIN_K17
+VGA_G[2] = OUTPUT();
+
+
+--A1L623 is VGA_G[3]~output at IOOBUF_X41_Y20_N23
+A1L623 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_G[3] is VGA_G[3] at PIN_J21
+VGA_G[3] = OUTPUT();
+
+
+--A1L608 is VGA_B[0]~output at IOOBUF_X41_Y19_N16
+A1L608 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[0] is VGA_B[0] at PIN_K22
+VGA_B[0] = OUTPUT();
+
+
+--A1L610 is VGA_B[1]~output at IOOBUF_X41_Y19_N9
+A1L610 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[1] is VGA_B[1] at PIN_K21
+VGA_B[1] = OUTPUT();
+
+
+--A1L612 is VGA_B[2]~output at IOOBUF_X41_Y19_N2
+A1L612 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[2] is VGA_B[2] at PIN_J22
+VGA_B[2] = OUTPUT();
+
+
+--A1L614 is VGA_B[3]~output at IOOBUF_X41_Y21_N9
+A1L614 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--VGA_B[3] is VGA_B[3] at PIN_K18
+VGA_B[3] = OUTPUT();
+
+
+
+--GPIO0_CLKIN[0] is GPIO0_CLKIN[0] at PIN_AB12
+GPIO0_CLKIN[0] = INPUT();
+
+
+
+--GPIO0_CLKIN[1] is GPIO0_CLKIN[1] at PIN_AA12
+GPIO0_CLKIN[1] = INPUT();
+
+
+--A1L223 is GPIO0_CLKOUT[0]~output at IOOBUF_X7_Y0_N30
+A1L223 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO0_CLKOUT[0] is GPIO0_CLKOUT[0] at PIN_AB3
+GPIO0_CLKOUT[0] = OUTPUT();
+
+
+--A1L225 is GPIO0_CLKOUT[1]~output at IOOBUF_X5_Y0_N2
+A1L225 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO0_CLKOUT[1] is GPIO0_CLKOUT[1] at PIN_AA3
+GPIO0_CLKOUT[1] = OUTPUT();
+
+
+
+--GPIO1_CLKIN[0] is GPIO1_CLKIN[0] at PIN_AB11
+GPIO1_CLKIN[0] = INPUT();
+
+
+
+--GPIO1_CLKIN[1] is GPIO1_CLKIN[1] at PIN_AA11
+GPIO1_CLKIN[1] = INPUT();
+
+
+--A1L330 is GPIO1_CLKOUT[0]~output at IOOBUF_X37_Y0_N2
+A1L330 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO1_CLKOUT[0] is GPIO1_CLKOUT[0] at PIN_R16
+GPIO1_CLKOUT[0] = OUTPUT();
+
+
+--A1L332 is GPIO1_CLKOUT[1]~output at IOOBUF_X37_Y0_N9
+A1L332 = OUTPUT_BUFFER.O(.I(GND), , , , , , , , , , , , , , , , , );
+
+
+--GPIO1_CLKOUT[1] is GPIO1_CLKOUT[1] at PIN_T16
+GPIO1_CLKOUT[1] = OUTPUT();
+
+
+--DRAM_DQ[0] is DRAM_DQ[0] at PIN_D10
+DRAM_DQ[0] = BIDIR();
+
+
+
+--DRAM_DQ[1] is DRAM_DQ[1] at PIN_G10
+DRAM_DQ[1] = BIDIR();
+
+
+
+--DRAM_DQ[2] is DRAM_DQ[2] at PIN_H10
+DRAM_DQ[2] = BIDIR();
+
+
+
+--DRAM_DQ[3] is DRAM_DQ[3] at PIN_E9
+DRAM_DQ[3] = BIDIR();
+
+
+
+--DRAM_DQ[4] is DRAM_DQ[4] at PIN_F9
+DRAM_DQ[4] = BIDIR();
+
+
+
+--DRAM_DQ[5] is DRAM_DQ[5] at PIN_G9
+DRAM_DQ[5] = BIDIR();
+
+
+
+--DRAM_DQ[6] is DRAM_DQ[6] at PIN_H9
+DRAM_DQ[6] = BIDIR();
+
+
+
+--DRAM_DQ[7] is DRAM_DQ[7] at PIN_F8
+DRAM_DQ[7] = BIDIR();
+
+
+
+--DRAM_DQ[8] is DRAM_DQ[8] at PIN_A8
+DRAM_DQ[8] = BIDIR();
+
+
+
+--DRAM_DQ[9] is DRAM_DQ[9] at PIN_B9
+DRAM_DQ[9] = BIDIR();
+
+
+
+--DRAM_DQ[10] is DRAM_DQ[10] at PIN_A9
+DRAM_DQ[10] = BIDIR();
+
+
+
+--DRAM_DQ[11] is DRAM_DQ[11] at PIN_C10
+DRAM_DQ[11] = BIDIR();
+
+
+
+--DRAM_DQ[12] is DRAM_DQ[12] at PIN_B10
+DRAM_DQ[12] = BIDIR();
+
+
+
+--DRAM_DQ[13] is DRAM_DQ[13] at PIN_A10
+DRAM_DQ[13] = BIDIR();
+
+
+
+--DRAM_DQ[14] is DRAM_DQ[14] at PIN_E10
+DRAM_DQ[14] = BIDIR();
+
+
+
+--DRAM_DQ[15] is DRAM_DQ[15] at PIN_F10
+DRAM_DQ[15] = BIDIR();
+
+
+
+--FL_DQ[0] is FL_DQ[0] at PIN_R7
+FL_DQ[0] = BIDIR();
+
+
+
+--FL_DQ[1] is FL_DQ[1] at PIN_P8
+FL_DQ[1] = BIDIR();
+
+
+
+--FL_DQ[2] is FL_DQ[2] at PIN_R8
+FL_DQ[2] = BIDIR();
+
+
+
+--FL_DQ[3] is FL_DQ[3] at PIN_U1
+FL_DQ[3] = BIDIR();
+
+
+
+--FL_DQ[4] is FL_DQ[4] at PIN_V2
+FL_DQ[4] = BIDIR();
+
+
+
+--FL_DQ[5] is FL_DQ[5] at PIN_V3
+FL_DQ[5] = BIDIR();
+
+
+
+--FL_DQ[6] is FL_DQ[6] at PIN_W1
+FL_DQ[6] = BIDIR();
+
+
+
+--FL_DQ[7] is FL_DQ[7] at PIN_Y1
+FL_DQ[7] = BIDIR();
+
+
+
+--FL_DQ[8] is FL_DQ[8] at PIN_T5
+FL_DQ[8] = BIDIR();
+
+
+
+--FL_DQ[9] is FL_DQ[9] at PIN_T7
+FL_DQ[9] = BIDIR();
+
+
+
+--FL_DQ[10] is FL_DQ[10] at PIN_T4
+FL_DQ[10] = BIDIR();
+
+
+
+--FL_DQ[11] is FL_DQ[11] at PIN_U2
+FL_DQ[11] = BIDIR();
+
+
+
+--FL_DQ[12] is FL_DQ[12] at PIN_V1
+FL_DQ[12] = BIDIR();
+
+
+
+--FL_DQ[13] is FL_DQ[13] at PIN_V4
+FL_DQ[13] = BIDIR();
+
+
+
+--FL_DQ[14] is FL_DQ[14] at PIN_W2
+FL_DQ[14] = BIDIR();
+
+
+
+--FL_DQ15_AM1 is FL_DQ15_AM1 at PIN_Y2
+FL_DQ15_AM1 = BIDIR();
+
+
+
+--LCD_DATA[0] is LCD_DATA[0] at PIN_D22
+LCD_DATA[0] = BIDIR();
+
+
+
+--LCD_DATA[1] is LCD_DATA[1] at PIN_D21
+LCD_DATA[1] = BIDIR();
+
+
+
+--LCD_DATA[2] is LCD_DATA[2] at PIN_C22
+LCD_DATA[2] = BIDIR();
+
+
+
+--LCD_DATA[3] is LCD_DATA[3] at PIN_C21
+LCD_DATA[3] = BIDIR();
+
+
+
+--LCD_DATA[4] is LCD_DATA[4] at PIN_B22
+LCD_DATA[4] = BIDIR();
+
+
+
+--LCD_DATA[5] is LCD_DATA[5] at PIN_B21
+LCD_DATA[5] = BIDIR();
+
+
+
+--LCD_DATA[6] is LCD_DATA[6] at PIN_D20
+LCD_DATA[6] = BIDIR();
+
+
+
+--LCD_DATA[7] is LCD_DATA[7] at PIN_C20
+LCD_DATA[7] = BIDIR();
+
+
+
+--SD_DAT0 is SD_DAT0 at PIN_AA22
+SD_DAT0 = BIDIR();
+
+
+
+--SD_DAT3 is SD_DAT3 at PIN_W21
+SD_DAT3 = BIDIR();
+
+
+
+--SD_CMD is SD_CMD at PIN_Y22
+SD_CMD = BIDIR();
+
+
+
+--PS2_KBDAT is PS2_KBDAT at PIN_P21
+PS2_KBDAT = BIDIR();
+
+
+
+--PS2_KBCLK is PS2_KBCLK at PIN_P22
+PS2_KBCLK = BIDIR();
+
+
+
+--PS2_MSDAT is PS2_MSDAT at PIN_R22
+PS2_MSDAT = BIDIR();
+
+
+
+--PS2_MSCLK is PS2_MSCLK at PIN_R21
+PS2_MSCLK = BIDIR();
+
+
+
+--GPIO0_D[0] is GPIO0_D[0] at PIN_AB16
+GPIO0_D[0] = BIDIR();
+
+
+
+--GPIO0_D[1] is GPIO0_D[1] at PIN_AA16
+GPIO0_D[1] = BIDIR();
+
+
+
+--GPIO0_D[2] is GPIO0_D[2] at PIN_AA15
+GPIO0_D[2] = BIDIR();
+
+
+
+--GPIO0_D[3] is GPIO0_D[3] at PIN_AB15
+GPIO0_D[3] = BIDIR();
+
+
+
+--GPIO0_D[4] is GPIO0_D[4] at PIN_AA14
+GPIO0_D[4] = BIDIR();
+
+
+
+--GPIO0_D[5] is GPIO0_D[5] at PIN_AB14
+GPIO0_D[5] = BIDIR();
+
+
+
+--GPIO0_D[6] is GPIO0_D[6] at PIN_AB13
+GPIO0_D[6] = BIDIR();
+
+
+
+--GPIO0_D[7] is GPIO0_D[7] at PIN_AA13
+GPIO0_D[7] = BIDIR();
+
+
+
+--GPIO0_D[8] is GPIO0_D[8] at PIN_AB10
+GPIO0_D[8] = BIDIR();
+
+
+
+--GPIO0_D[9] is GPIO0_D[9] at PIN_AA10
+GPIO0_D[9] = BIDIR();
+
+
+
+--GPIO0_D[10] is GPIO0_D[10] at PIN_AB8
+GPIO0_D[10] = BIDIR();
+
+
+
+--GPIO0_D[11] is GPIO0_D[11] at PIN_AA8
+GPIO0_D[11] = BIDIR();
+
+
+
+--GPIO0_D[12] is GPIO0_D[12] at PIN_AB5
+GPIO0_D[12] = BIDIR();
+
+
+
+--GPIO0_D[13] is GPIO0_D[13] at PIN_AA5
+GPIO0_D[13] = BIDIR();
+
+
+
+--GPIO0_D[14] is GPIO0_D[14] at PIN_AB4
+GPIO0_D[14] = BIDIR();
+
+
+
+--GPIO0_D[15] is GPIO0_D[15] at PIN_AA4
+GPIO0_D[15] = BIDIR();
+
+
+
+--GPIO0_D[16] is GPIO0_D[16] at PIN_V14
+GPIO0_D[16] = BIDIR();
+
+
+
+--GPIO0_D[17] is GPIO0_D[17] at PIN_U14
+GPIO0_D[17] = BIDIR();
+
+
+
+--GPIO0_D[18] is GPIO0_D[18] at PIN_Y13
+GPIO0_D[18] = BIDIR();
+
+
+
+--GPIO0_D[19] is GPIO0_D[19] at PIN_W13
+GPIO0_D[19] = BIDIR();
+
+
+
+--GPIO0_D[20] is GPIO0_D[20] at PIN_U13
+GPIO0_D[20] = BIDIR();
+
+
+
+--GPIO0_D[21] is GPIO0_D[21] at PIN_V12
+GPIO0_D[21] = BIDIR();
+
+
+
+--GPIO0_D[22] is GPIO0_D[22] at PIN_R10
+GPIO0_D[22] = BIDIR();
+
+
+
+--GPIO0_D[23] is GPIO0_D[23] at PIN_V11
+GPIO0_D[23] = BIDIR();
+
+
+
+--GPIO0_D[24] is GPIO0_D[24] at PIN_Y10
+GPIO0_D[24] = BIDIR();
+
+
+
+--GPIO0_D[25] is GPIO0_D[25] at PIN_W10
+GPIO0_D[25] = BIDIR();
+
+
+
+--GPIO0_D[26] is GPIO0_D[26] at PIN_T8
+GPIO0_D[26] = BIDIR();
+
+
+
+--GPIO0_D[27] is GPIO0_D[27] at PIN_V8
+GPIO0_D[27] = BIDIR();
+
+
+
+--GPIO0_D[28] is GPIO0_D[28] at PIN_W7
+GPIO0_D[28] = BIDIR();
+
+
+
+--GPIO0_D[29] is GPIO0_D[29] at PIN_W6
+GPIO0_D[29] = BIDIR();
+
+
+
+--GPIO0_D[30] is GPIO0_D[30] at PIN_V5
+GPIO0_D[30] = BIDIR();
+
+
+
+--GPIO0_D[31] is GPIO0_D[31] at PIN_U7
+GPIO0_D[31] = BIDIR();
+
+
+
+--GPIO1_D[0] is GPIO1_D[0] at PIN_AA20
+GPIO1_D[0] = BIDIR();
+
+
+
+--GPIO1_D[1] is GPIO1_D[1] at PIN_AB20
+GPIO1_D[1] = BIDIR();
+
+
+
+--GPIO1_D[2] is GPIO1_D[2] at PIN_AA19
+GPIO1_D[2] = BIDIR();
+
+
+
+--GPIO1_D[3] is GPIO1_D[3] at PIN_AB19
+GPIO1_D[3] = BIDIR();
+
+
+
+--GPIO1_D[4] is GPIO1_D[4] at PIN_AB18
+GPIO1_D[4] = BIDIR();
+
+
+
+--GPIO1_D[5] is GPIO1_D[5] at PIN_AA18
+GPIO1_D[5] = BIDIR();
+
+
+
+--GPIO1_D[6] is GPIO1_D[6] at PIN_AA17
+GPIO1_D[6] = BIDIR();
+
+
+
+--GPIO1_D[7] is GPIO1_D[7] at PIN_AB17
+GPIO1_D[7] = BIDIR();
+
+
+
+--GPIO1_D[8] is GPIO1_D[8] at PIN_Y17
+GPIO1_D[8] = BIDIR();
+
+
+
+--GPIO1_D[9] is GPIO1_D[9] at PIN_W17
+GPIO1_D[9] = BIDIR();
+
+
+
+--GPIO1_D[10] is GPIO1_D[10] at PIN_U15
+GPIO1_D[10] = BIDIR();
+
+
+
+--GPIO1_D[11] is GPIO1_D[11] at PIN_T15
+GPIO1_D[11] = BIDIR();
+
+
+
+--GPIO1_D[12] is GPIO1_D[12] at PIN_W15
+GPIO1_D[12] = BIDIR();
+
+
+
+--GPIO1_D[13] is GPIO1_D[13] at PIN_V15
+GPIO1_D[13] = BIDIR();
+
+
+
+--GPIO1_D[14] is GPIO1_D[14] at PIN_AB9
+GPIO1_D[14] = BIDIR();
+
+
+
+--GPIO1_D[15] is GPIO1_D[15] at PIN_AA9
+GPIO1_D[15] = BIDIR();
+
+
+
+--GPIO1_D[16] is GPIO1_D[16] at PIN_AA7
+GPIO1_D[16] = BIDIR();
+
+
+
+--GPIO1_D[17] is GPIO1_D[17] at PIN_AB7
+GPIO1_D[17] = BIDIR();
+
+
+
+--GPIO1_D[18] is GPIO1_D[18] at PIN_T14
+GPIO1_D[18] = BIDIR();
+
+
+
+--GPIO1_D[19] is GPIO1_D[19] at PIN_R14
+GPIO1_D[19] = BIDIR();
+
+
+
+--GPIO1_D[20] is GPIO1_D[20] at PIN_U12
+GPIO1_D[20] = BIDIR();
+
+
+
+--GPIO1_D[21] is GPIO1_D[21] at PIN_T12
+GPIO1_D[21] = BIDIR();
+
+
+
+--GPIO1_D[22] is GPIO1_D[22] at PIN_R11
+GPIO1_D[22] = BIDIR();
+
+
+
+--GPIO1_D[23] is GPIO1_D[23] at PIN_R12
+GPIO1_D[23] = BIDIR();
+
+
+
+--GPIO1_D[24] is GPIO1_D[24] at PIN_U10
+GPIO1_D[24] = BIDIR();
+
+
+
+--GPIO1_D[25] is GPIO1_D[25] at PIN_T10
+GPIO1_D[25] = BIDIR();
+
+
+
+--GPIO1_D[26] is GPIO1_D[26] at PIN_U9
+GPIO1_D[26] = BIDIR();
+
+
+
+--GPIO1_D[27] is GPIO1_D[27] at PIN_T9
+GPIO1_D[27] = BIDIR();
+
+
+
+--GPIO1_D[28] is GPIO1_D[28] at PIN_Y7
+GPIO1_D[28] = BIDIR();
+
+
+
+--GPIO1_D[29] is GPIO1_D[29] at PIN_U8
+GPIO1_D[29] = BIDIR();
+
+
+
+--GPIO1_D[30] is GPIO1_D[30] at PIN_V6
+GPIO1_D[30] = BIDIR();
+
+
+
+--GPIO1_D[31] is GPIO1_D[31] at PIN_V7
+GPIO1_D[31] = BIDIR();
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+
+State Machine - |DE0_TOP|top:top_inst|cpu:cpu_inst|out_phase_seq
+Name out_phase_seq.out_phase_end out_phase_seq.out_phase_execute out_phase_seq.out_phase_operand_1_indirect_write out_phase_seq.out_phase_operand_1_indirect out_phase_seq.out_phase_operand_1_direct 
+out_phase_seq.out_phase_operand_1_direct 0 0 0 0 0 
+out_phase_seq.out_phase_operand_1_indirect 0 0 0 1 1 
+out_phase_seq.out_phase_operand_1_indirect_write 0 0 1 0 1 
+out_phase_seq.out_phase_execute 0 1 0 0 1 
+out_phase_seq.out_phase_end 1 0 0 0 1 
+
+State Machine - |DE0_TOP|top:top_inst|cpu:cpu_inst|in_phase_seq
+Name in_phase_seq.in_phase_end in_phase_seq.in_phase_execute in_phase_seq.in_phase_operand_1_indirect_write in_phase_seq.in_phase_operand_1_indirect in_phase_seq.in_phase_operand_1_direct 
+in_phase_seq.in_phase_operand_1_direct 0 0 0 0 0 
+in_phase_seq.in_phase_operand_1_indirect 0 0 0 1 1 
+in_phase_seq.in_phase_operand_1_indirect_write 0 0 1 0 1 
+in_phase_seq.in_phase_execute 0 1 0 0 1 
+in_phase_seq.in_phase_end 1 0 0 0 1 
+
+State Machine - |DE0_TOP|top:top_inst|cpu:cpu_inst|alu_phase_seq
+Name alu_phase_seq.alu_phase_place_indirect alu_phase_seq.alu_phase_end alu_phase_seq.alu_phase_execute alu_phase_seq.alu_phase_operand_2_indirect alu_phase_seq.alu_phase_operand_2_direct alu_phase_seq.alu_phase_operand_3_indirect alu_phase_seq.alu_phase_operand_3_direct alu_phase_seq.alu_phase_place_direct 
+alu_phase_seq.alu_phase_place_direct 0 0 0 0 0 0 0 0 
+alu_phase_seq.alu_phase_operand_3_direct 0 0 0 0 0 0 1 1 
+alu_phase_seq.alu_phase_operand_3_indirect 0 0 0 0 0 1 0 1 
+alu_phase_seq.alu_phase_operand_2_direct 0 0 0 0 1 0 0 1 
+alu_phase_seq.alu_phase_operand_2_indirect 0 0 0 1 0 0 0 1 
+alu_phase_seq.alu_phase_execute 0 0 1 0 0 0 0 1 
+alu_phase_seq.alu_phase_end 0 1 0 0 0 0 0 1 
+alu_phase_seq.alu_phase_place_indirect 1 0 0 0 0 0 0 1 
+
+State Machine - |DE0_TOP|top:top_inst|cpu:cpu_inst|mov_phase_seq
+Name mov_phase_seq.mov_phase_operand_1_indirect_two_word_addressing mov_phase_seq.mov_phase_operand_1_direct_two_word_addressing mov_phase_seq.mov_phase_end mov_phase_seq.mov_phase_execute mov_phase_seq.mov_phase_operand_1_indirect mov_phase_seq.mov_phase_operand_1_direct mov_phase_seq.mov_phase_operand_2_indirect mov_phase_seq.mov_phase_operand_2_direct 
+mov_phase_seq.mov_phase_operand_2_direct 0 0 0 0 0 0 0 0 
+mov_phase_seq.mov_phase_operand_2_indirect 0 0 0 0 0 0 1 1 
+mov_phase_seq.mov_phase_operand_1_direct 0 0 0 0 0 1 0 1 
+mov_phase_seq.mov_phase_operand_1_indirect 0 0 0 0 1 0 0 1 
+mov_phase_seq.mov_phase_execute 0 0 0 1 0 0 0 1 
+mov_phase_seq.mov_phase_end 0 0 1 0 0 0 0 1 
+mov_phase_seq.mov_phase_operand_1_direct_two_word_addressing 0 1 0 0 0 0 0 1 
+mov_phase_seq.mov_phase_operand_1_indirect_two_word_addressing 1 0 0 0 0 0 0 1 
+
+State Machine - |DE0_TOP|top:top_inst|cpu:cpu_inst|state_reg
+Name state_reg.stop state_reg.fetch_second state_reg.execute state_reg.decode state_reg.fetch state_reg.start 
+state_reg.start 0 0 0 0 0 0 
+state_reg.fetch 0 0 0 0 1 1 
+state_reg.decode 0 0 0 1 0 1 
+state_reg.execute 0 0 1 0 0 1 
+state_reg.fetch_second 0 1 0 0 0 1 
+state_reg.stop 1 0 0 0 0 1 

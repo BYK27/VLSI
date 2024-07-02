@@ -1,0 +1,6 @@
+Bitno: deo za verifikaciju nije u potpunosti ispravan. taj deo je i onako kopija sa vežbi prilagođena za projekat.
+Bitno: izveštaj treba da se preda u okviru projekta ! ovo ne pravi toliki problem jer se i onako može izgenerisati na licu mesta.
+
+Modifikacija: Napraviti full adder.
+Modifikacija: Dodati instrukcije JSR i RTS. Treba da rade sa ugnježdavanjem.
+Modifikacija: Napraviti grešku u verifikaciji i to prikazati.
